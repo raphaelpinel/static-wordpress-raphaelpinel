@@ -25,8 +25,6 @@
     <!-- <link href="css/freelancer.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="/web/css/main.css">
     <link rel="stylesheet" href="/web/css/responsive.css">
-    <!-- reCaptcha -->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
   	<!-- Header Section Start -->
@@ -101,7 +99,7 @@
                 <div class="contents text-center">
                   <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"> Looking for a fullstack developer?</h1>
                   <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">
-                    Are you working in a growing company looking for hiring a professional full stack web developer now? You already have a team of skilled and enthusiastic people, you deeply care for your customers and are looking for a fast-learning developer that will match the spirit of your team? Someone who is thinking out of the box and will be fun to work with? Check me out! I’ve just completed my exams as part of an intensive 5-months training in France and I am now (as of January 2019) actively looking for a great company for a job as a junior developer. Before my training I had already solid frontend skills, having built 25 websites and my training was focused on the backend. I am looking forward to join your uplifing team. Interested? Let’s connect!
+                    Are you working in a growing company looking for hiring a professional full stack web developer? You already have a team of skilled and enthusiastic people, you deeply care for your customers and are looking for a fast-learning developer that will match the spirit of your team? Someone who is thinking out of the box and will be fun to work with? Check me out! I’ve just completed my exams as part of an intensive 5-months training in France and I am now (as of January 2019) actively looking for a great company for a job as a junior developer. Before my training I had already solid frontend skills, having built 25 websites and my training was focused on the backend. I am looking forward to join your uplifing team. Interested? Let’s connect!
                     </p>
                   <!-- <a href="#" class="btn btn-common wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Read More</a> -->
                   <a href="#whoami" class="btn btn-border wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">Get to know me</a>
@@ -1335,9 +1333,9 @@
         <div class="row justify-content-md-center">          
           <div class="col-md-10 wow rollIn" data-wow-duration="1000ms" data-wow-delay="300ms"> 
                 
-                  <h2 class="section-title">CONTACT ME NOW</h2>
+                  <h2 class="section-title">CONTACT ME</h2>
                     <div class="card-body">
-                        <form id="contactForm" action="#" class="contact__form" method="post">
+                        <form id="contactForm" action="#" class="contact__form" method="post"  data-netlify="true" netlify-honeypot="bot-field">
                             
                             <!-- form message -->
                             <div class="row">
@@ -1369,7 +1367,9 @@
                                 <div class="col-12 form-group">
                                     <textarea name="message" class="form-control" rows="3" placeholder="Message*" required></textarea>
                                 </div>
-                                
+                                <div class="col-12 form-group">
+                                    <div data-netlify-recaptcha="true"></div>
+                                </div>
                                 <div class="col-12">
                                   <div class="submit-button text-center">
                                     <button class="btn btn-common" id="submit" type="submit">Send your message</button>
