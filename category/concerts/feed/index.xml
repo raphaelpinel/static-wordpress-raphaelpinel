@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>concerts &#8211; Raphaël Pinel</title>
+	<atom:link href="http://localhost/duplicator1/category/concerts/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>creative harp</description>
+	<lastBuildDate>Fri, 31 May 2019 08:50:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.1</generator>
+	<item>
+		<title>Concert Afro-Celtique à Ramatuelle (83)</title>
+		<link>/2017/05/07/concert-afro-celtique-a-ramatuelle-83/</link>
+				<pubDate>Sun, 07 May 2017 23:00:06 +0000</pubDate>
+		<dc:creator><![CDATA[Raphaël]]></dc:creator>
+				<category><![CDATA[concerts]]></category>
+
+		<guid isPermaLink="false">/?p=42</guid>
+				<description><![CDATA[CONCERT AFRO-CELTIQUE RAPHAËL PINEL Harpe Celtique Créative A l’occasion de la sortie de son album : « NEEMA &#8211; Afro Celtic [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-45" src="/wp-content/uploads/2017/05/Concert-Raphael-Pinel-harpe-celtique-Ramatuelle-16-juin-2017-EMAIL-1.jpg" alt="Concert Raphael Pinel harpe celtique Ramatuelle 16 juin 2017 EMAIL" width="595" height="842" srcset="/C:/wamp64/www/duplicator1/raphaelpinel/wp-content/uploads/2017/05/Concert-Raphael-Pinel-harpe-celtique-Ramatuelle-16-juin-2017-EMAIL-1.jpg 595w, /C:/wamp64/www/duplicator1/raphaelpinel/wp-content/uploads/2017/05/Concert-Raphael-Pinel-harpe-celtique-Ramatuelle-16-juin-2017-EMAIL-1-212x300.jpg 212w" sizes="(max-width: 595px) 100vw, 595px" /></p>
+<p class="p1"><span class="s1">CONCERT AFRO-CELTIQUE</span></p>
+<p class="p1">RAPHAËL PINEL<br />
+Harpe Celtique Créative</p>
+<p class="p2"><i>A l’occasion de la sortie de son album : </i><i>« NEEMA &#8211; Afro Celtic Adventures », Raphaël Pinel nous partage ses dernières compositions, vivantes, colorées et inspirées par la joie et le goût de l’aventure qui se trouvent au fond de chacun de nous. NEEMA signifie en Swahili “Grâce”.<span class="Apple-converted-space">  </span>Un moment pour revenir à soi, écouter son cœur et célébrer la simplicité et la fraîcheur de l’instant présent.</i></p>
+<p class="p1">Vendredi 16 Juin<span class="Apple-converted-space">  </span>20h30</p>
+<p class="p1">L’Atelier des Musiciens, <span class="s1">Ramatuelle<br />
+</span><i>247 Parc d’Activité du Colombier</i></p>
+<p class="p1">Infos : 04 94 49 32 94<br />
+Entré libre &#8211; participation volontaire bienvenue</p>
+<p class="p1"><a href="https://www.facebook.com/raphaelpinel1/posts/10210329830897001?pnref=story" target="_blank" rel="noopener noreferrer">Évènement Facebook</a></p>
+<p class="p1"><span class="s1"> </span></p>
+<p class="p1">
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>
