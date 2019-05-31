@@ -1337,7 +1337,7 @@
                 
                   <h2 class="section-title">CONTACT ME</h2>
                     <div class="card-body">
-                        <form id="contactForm" class="contact__form" method="post" action="/web/php/mail.php">
+                        <form id="contactForm" class="contact__form" method="post" data-netlify="true" netlify-honeypot="bot-field">
                             
                             <!-- form message -->
                             <div class="row">
@@ -1351,6 +1351,9 @@
 
                             <!-- form element -->
                             <div class="row">
+                                <div style="display: none">
+                                    <input type="text" name="bot-field" />
+                                </div>
                                 <div class="col-md-6 form-group">
                                     <input name="name" type="text" class="form-control" placeholder="Name*" required>
                                 </div>
@@ -1367,7 +1370,7 @@
                                     <textarea name="message" class="form-control" rows="3" placeholder="Message*" required></textarea>
                                 </div>
                                 <div class="col-12 form-group">
-                                    <div class="g-recaptcha" data-theme="dark" data-sitekey="6Le-R2oUAAAAAC0gq6Z9fYScgYH6QD_eqw57IZv9"></div>
+                                    <div data-netlify-recaptcha="true"></div>
                                 </div>
                                 <div class="col-12">
                                   <div class="submit-button text-center">
