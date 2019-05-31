@@ -1,0 +1,27 @@
+canvas {
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+body, html {
+ height: 100%;
+ margin: 0;
+}
+#hint {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 45%;
+	text-align: center;
+}
+#hint .message {
+    display: inline-block;
+    background: white;
+    color: #666666;
+    font-family: "Lucida Grande", verdana, sans-serif;
+    font-size: 12px;
+    line-height: 32px;
+    border-radius: 10.56px;
+    padding: 0 16px;
+}
