@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:content="https://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="https://wellformedweb.org/CommentAPI/"
+	xmlns:dc="https://purl.org/dc/elements/1.1/"
+	xmlns:atom="https://www.w3.org/2005/Atom"
+	xmlns:sy="https://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="https://purl.org/rss/1.0/modules/slash/"
 	>
 
 <channel>
 	<title>Raphaël Pinel</title>
-	<atom:link href="http://localhost/duplicator1/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="https://localhost/duplicator1/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>creative harp</description>
 	<lastBuildDate>Fri, 31 May 2019 08:50:25 +0000</lastBuildDate>
@@ -31,11 +31,11 @@
 				<description><![CDATA[(English below) Un aperçu de sept compositions jouées live à l&#8217;Atelier des Musiciens à Ramatuelle issues de mon dernier album [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>(English below) Un aperçu de sept compositions jouées live à l&#8217;Atelier des Musiciens à Ramatuelle issues de mon dernier album NEEMA &#8211; Afro Celtic Adventures</p>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/c-doG4wOAxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p>Retrouvez-moi aux Rencontres internationales de harpe celtique de Dinan le 14 juillet 2018: <a href="http://www.harpe-celtique.fr/festival/" target="_blank" rel="noopener noreferrer">http://www.harpe-celtique.fr/festival/</a></p>
+<p>Retrouvez-moi aux Rencontres internationales de harpe celtique de Dinan le 14 juillet 2018: <a href="https://www.harpe-celtique.fr/festival/" target="_blank" rel="noopener noreferrer">https://www.harpe-celtique.fr/festival/</a></p>
 <p>et faite vous plaisir : <strong>soutenez ma musique et commandez l&#8217;album NEEMA</strong><br />
 en m&#8217;écrivant via le formulaire de <a href="/contact/">contact</a></p>
 <p>An overview of seven own compositions played live in Ramatuelle, from my last album NEEMA &#8211; Afro Celtic Adventures.<br />
-Come to experience me live at the International harp festival in Dinan on July 14th, 2018: <a href="http://www.harpe-celtique.fr/festival/" target="_blank" rel="noopener noreferrer">http://www.harpe-celtique.fr/festival/</a></p>
+Come to experience me live at the International harp festival in Dinan on July 14th, 2018: <a href="https://www.harpe-celtique.fr/festival/" target="_blank" rel="noopener noreferrer">https://www.harpe-celtique.fr/festival/</a></p>
 <p>And give yourself a special treat: <strong>support my music and order my CD NEEMA</strong><br />
 by writing me using the <a href="/contact/">contact form</a></p>
 ]]></content:encoded>

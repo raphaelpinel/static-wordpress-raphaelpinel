@@ -3,9 +3,9 @@
  */
 /*
  CSS Browser Selector 1.0
- Originally written by Rafael Lima (http://rafael.adm.br)
- http://rafael.adm.br/css_browser_selector
- License: http://creativecommons.org/licenses/by/2.5/
+ Originally written by Rafael Lima (https://rafael.adm.br)
+ https://rafael.adm.br/css_browser_selector
+ License: https://creativecommons.org/licenses/by/2.5/
 
  Co-maintained by:
  https://github.com/ridjohansen/css_browser_selector
@@ -318,7 +318,7 @@ try {
 	window.CustomEvent = CustomEvent; // expose definition to window
 }
 // Evento - v1.0.0
-// by Erik Royall <erikroyalL@hotmail.com> (http://erikroyall.github.io)
+// by Erik Royall <erikroyalL@hotmail.com> (https://erikroyall.github.io)
 // Dual licensed under MIT and GPL
 // Array.prototype.indexOf shim
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
@@ -371,7 +371,7 @@ var evento = function(n) {
 }(this);
 /*
  * OKVideo by OKFocus v2.3.2
- * http://okfoc.us
+ * https://okfoc.us
  *
  * Copyright 2014, OKFocus
  * Licensed under the MIT license.
@@ -3314,7 +3314,7 @@ Pathformer.prototype.circleToPath = function (element) {
  * @return {DOMelement}          Path element
  */
 Pathformer.prototype.pathMaker = function (element, pathData) {
-  var i, attr, pathTag = document.createElementNS('http://www.w3.org/2000/svg','path');
+  var i, attr, pathTag = document.createElementNS('https://www.w3.org/2000/svg','path');
   for(i = 0; i < element.attributes.length; i++) {
     attr = element.attributes[i];
     if (this.ATTR_WATCH.indexOf(attr.name) === -1) {
