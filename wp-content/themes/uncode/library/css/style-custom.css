@@ -368,6 +368,9 @@
 #Standard font size
 ----------------------------------------------------------*/
 p,li,dt,dd,dl,address,label,small,pre,code { font-size: 15px; }
+.text-lead, .text-lead > * { font-size: 18px; }
+@media (max-width: 1499px) { .uncode-slider .text-lead > * { font-size: 16px; } }
+@media (max-width: 959px) { .uncode-slider .text-lead > * { font-size: 13px; } }
 h1:not([class*="fontsize-"]),.h1:not([class*="fontsize-"]) { font-size: 35px; }
 h2:not([class*="fontsize-"]),.h2:not([class*="fontsize-"]) { font-size: 29px; }
 h3:not([class*="fontsize-"]),.h3:not([class*="fontsize-"]) { font-size: 24px; }
@@ -375,10 +378,6 @@ h4:not([class*="fontsize-"]),.h4:not([class*="fontsize-"]) { font-size: 20px; }
 h5:not([class*="fontsize-"]),.h5:not([class*="fontsize-"]) { font-size: 17px; }
 h6:not([class*="fontsize-"]),.h6:not([class*="fontsize-"]) { font-size: 14px; }
 
-<br />
-<b>Notice</b>:  Undefined index: _uncode_menu_letter_spacing in <b>/home/raphaelpinel/public_html/wp-content/themes/uncode/core/inc/style-custom.css.php</b> on line <b>486</b><br />
-<br />
-<b>Notice</b>:  Undefined index: _uncode_menu_letter_spacing in <b>/home/raphaelpinel/public_html/wp-content/themes/uncode/core/inc/style-custom.css.php</b> on line <b>500</b><br />
 /*
 ----------------------------------------------------------
 [Table of contents]
