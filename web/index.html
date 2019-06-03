@@ -1335,7 +1335,7 @@
 
                   <h2 class="section-title">CONTACT ME</h2>
                     <div class="card-body">
-                        <form name="web-developer-contact-form" id="contactForm" class="contact__form" method="post" data-netlify="true" netlify-honeypot="bot-field">
+                        <form name="web-developer-contact-form" id="contactForm" class="contact__form" method="POST" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
 
                             <!-- form message -->
                             <div class="row">
@@ -1353,16 +1353,16 @@
                                     <input type="text" name="bot-field" />
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="name" type="text" class="form-control" placeholder="Name*" required>
+                                    <input name="name" type="text" class="form-control" placeholder="Name*" required />
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="email" type="email" class="form-control" placeholder="Email*" required>
+                                    <input name="email" type="email" class="form-control" placeholder="Email*" required />
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="phone" type="text" class="form-control" placeholder="Phone*" >
+                                    <input name="phone" type="text" class="form-control" placeholder="Phone" />
                                 </div>
                                 <div class="col-md-6 form-group">
-                                    <input name="subject" type="text" class="form-control" placeholder="Subject*" required>
+                                    <input name="subject" type="text" class="form-control" placeholder="Subject*" required />
                                 </div>
                                 <div class="col-12 form-group">
                                     <textarea name="message" class="form-control" rows="3" placeholder="Message*" required></textarea>
