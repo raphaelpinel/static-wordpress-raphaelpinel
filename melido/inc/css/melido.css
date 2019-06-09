@@ -1,0 +1,185 @@
+body {
+	background-color: #E8E5E4;
+    font-family: Geneva, Arial, helvetica, Verdana, sans-serif;
+    margin: 50px 0 0 0;
+    
+}
+* {box-sizing: border-box;}
+/* Grid Layout */
+
+.header {
+	    position: fixed;
+    top: 0;
+    z-index: 1030;
+}
+
+.photos {
+	background: #f7f7f7;
+}
+ul {
+	list-style: none;
+	margin: O auto;
+	padding: 0;
+}
+ul li img {
+	padding: 5px 10px;
+}
+.press h4 {
+
+}
+.press h3 {
+
+}
+h2 {
+	text-transform: uppercase;	
+}
+h5 {
+	text-align: left;
+}
+img.musician {
+	float: left;
+	padding: 10px;
+	max-width: 200px;
+	height: auto;
+}
+.cool {
+	font-weight: bold;
+}
+
+/*for video embed responsive
+*/
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.box {
+  /*background-color: #444;*/
+  /*border-radius: 5px;*/
+  /*padding: 10px;*/
+}
+
+.wrapper {
+	/*display: grid;*/
+	margin: auto;
+	/*display: grid;*/
+    /*grid-gap: 1em;*/
+    grid-template-areas:
+     .
+     "header"
+     "content"
+     .
+     max-width: 650px;
+}
+.header {
+	grid-area: header;
+	/*max-width: 700px;*/
+	margin: 0 auto;
+	background-color: #f47920; /*orange*/
+	/*box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);*/
+}
+.videos {
+	margin: 0 auto;
+
+}
+
+/*#navbarNavDropdown {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "line1" "line2";
+}*/
+/*.line1 {
+	grid-area: line1;
+	max-height: 10px;
+}*/
+/*.line2 {
+	grid-area: line2;
+}*/
+}
+.sidebar {
+	grid-area: sidebar;
+	display: none;
+}
+.content {
+	grid-area: content;
+	text-align: center;
+	/*max-width: 700px;*/
+    margin: 0 auto;
+    padding: 20px;
+    background: #f7f7f7;
+	/*box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);*/
+ }
+.content p {
+	/*padding: 10px 30px;*/
+	text-align: left;
+}
+.sidebar2 {
+	grid-area: sidebar2;
+	display: none;
+}
+img {
+	width:100%;
+}
+@media only screen and (min-width: 500px)  {
+    .wrapper {
+
+        grid-template-columns: 1fr 500px 1fr;
+        grid-template-areas:
+    ". header   ."
+        ". content  .";   
+    }
+}
+
+@media only screen and (min-width: 600px)   {
+    .wrapper {
+  
+        grid-template-columns: 1fr 600px 1fr;
+        grid-template-areas:
+  "header  header  header"
+        "content content content";
+        max-width: 630px;
+    }
+}
+
+
+
+
+ 
+
+/*for flags and language switcher
+*/
+.icon-small
+{
+    height:18px;
+    margin:0;
+	padding:0;
+}
+
+.icon-medium
+{
+    height:22px;
+	margin:0;
+	padding:0;
+}
+/*end of language switcher
+*/
+
+.credit {
+	 font-size:x-small;
+}
+
+
+
+
+
