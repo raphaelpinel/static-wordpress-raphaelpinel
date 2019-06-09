@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+body { background-color: #CCC;
+	color:#666;
+   font-family: Verdana, Arial, Helvetica, Sans-Serif;
+   font-size: 12px;
+   margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+
+}
+
+table.body {
+	margin: 0 auto;
+}
+
+/* flexbox layout 2018 to replace tables and create responsive design */
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+/* end of flexbox */
+
+.welcome {
+	background: #FFF;
+}
+
+table.biography td {
+		vertical-align:top;
+}
+div.inhalt {
+	margin: 20px 20px 50px 20px;
+}
+div.text {
+	margin-left:155px; width:600px;
+}
+table.banner td img {display: block;}
+
+a {text-decoration:underline;}
+a:link {color: #c75500;}
+a:visited {color:#c75500;}
+a.extern:link {color:#c75500;}
+a.extern:visited {color:#c75500;}
+a:hover {color:#fe8704}
+a:active {color:#c75500}
+
+table.books tr td { text-align:center; width:230px;}
+
+div.footer { text-align:right; font-size:small; margin: 30px 50px 20px 10px; }
