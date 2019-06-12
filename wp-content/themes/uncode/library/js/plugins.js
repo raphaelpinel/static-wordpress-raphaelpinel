@@ -294,7 +294,7 @@
  * Licensed GPLv3 for open source use
  * or Isotope Commercial License for commercial use
  *
- * https://isotope.metafizzy.co
+ * http://isotope.metafizzy.co
  * Copyright 2015 Metafizzy
  */
 
@@ -523,8 +523,8 @@ if ( typeof define === 'function' && define.amd ) {
 
 /*!
  * EventEmitter v4.2.11 - git.io/ee
- * Unlicense - https://unlicense.org/
- * Oliver Caldwell - https://oli.me.uk/
+ * Unlicense - http://unlicense.org/
+ * Oliver Caldwell - http://oli.me.uk/
  * @preserve
  */
 
@@ -997,7 +997,7 @@ if ( typeof define === 'function' && define.amd ) {
 /*!
  * getStyleProperty v1.0.4
  * original by kangax
- * https://perfectionkills.com/feature-testing-css-properties/
+ * http://perfectionkills.com/feature-testing-css-properties/
  * MIT license
  */
 
@@ -1150,7 +1150,7 @@ function setup() {
         if ( !style ) {
           logError( 'Style returned ' + style +
             '. Are you running this code in a hidden iframe on Firefox? ' +
-            'See https://bit.ly/getsizebug1' );
+            'See http://bit.ly/getsizebug1' );
         }
         return style;
       };
@@ -1600,7 +1600,7 @@ utils.removeFrom = function( ary, obj ) {
 
 // ----- isElement ----- //
 
-// https://stackoverflow.com/a/384380/182183
+// http://stackoverflow.com/a/384380/182183
 utils.isElement = ( typeof HTMLElement == 'function' || typeof HTMLElement == 'object' ) ?
   function isElementDOM2( obj ) {
     return obj instanceof HTMLElement;
@@ -1710,7 +1710,7 @@ utils.debounceMethod = function( _class, methodName, threshold ) {
 
 // ----- htmlInit ----- //
 
-// https://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
+// http://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
 utils.toDashed = function( str ) {
   return str.replace( /(.)([A-Z])/g, function( match, $1, $2 ) {
     return $1 + '-' + $2;
@@ -2101,7 +2101,7 @@ Item.prototype._transition = function( args ) {
   // set from styles
   if ( args.from ) {
     this.css( args.from );
-    // force redraw. https://blog.alexmaccaw.com/css-transitions
+    // force redraw. http://blog.alexmaccaw.com/css-transitions
     var h = this.element.offsetHeight;
     // hack for JSHint to hush about unused var
     h = null;
@@ -2975,7 +2975,7 @@ Outlayer.prototype.unbindResize = function() {
 };
 
 // original debounce by John Hann
-// https://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
+// http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 
 // this fires every resize
 Outlayer.prototype.onresize = function() {
@@ -3515,7 +3515,7 @@ return Item;
 /*!
  * Masonry v3.3.1
  * Cascading grid layout library
- * https://masonry.desandro.com
+ * http://masonry.desandro.com
  * MIT License
  * by David DeSandro
  */
@@ -3719,7 +3719,7 @@ return Item;
 /*!
  * Masonry layout mode
  * sub-classes Masonry
- * https://masonry.desandro.com
+ * http://masonry.desandro.com
  */
 
 ( function( window, factory ) {
@@ -3922,7 +3922,7 @@ return Vertical;
  * Licensed GPLv3 for open source use
  * or Isotope Commercial License for commercial use
  *
- * https://isotope.metafizzy.co
+ * http://isotope.metafizzy.co
  * Copyright 2015 Metafizzy
  */
 
@@ -4622,7 +4622,7 @@ proto.overlaps = function( rect ) {
   var rectRight = rect.x + rect.width;
   var rectBottom = rect.y + rect.height;
 
-  // https://stackoverflow.com/a/306332
+  // http://stackoverflow.com/a/306332
   return this.x < rectRight &&
     thisRight > rect.x &&
     this.y < rectBottom &&
@@ -5035,7 +5035,7 @@ return Item;
  * Licensed GPLv3 for open source use
  * or Packery Commercial License for commercial use
  *
- * https://packery.metafizzy.co
+ * http://packery.metafizzy.co
  * Copyright 2016 Metafizzy
  */
 
@@ -5787,7 +5787,7 @@ return Packery;
 /*!
  * cellsByRows layout mode for Isotope
  * v1.1.3
- * https://isotope.metafizzy.co/layout-modes/cellsbyrow.html
+ * http://isotope.metafizzy.co/layout-modes/cellsbyrow.html
  */
 
 /*jshint browser: true, devel: false, strict: true, undef: true, unused: true */
@@ -5861,7 +5861,7 @@ return Packery;
    + Copyright 2011/12 Paul Irish & Luke Shumard
    + Licensed under the MIT license
 
-   + Documentation: https://infinite-scroll.com/
+   + Documentation: http://infinite-scroll.com/
 */
 
 // Uses AMD or browser globals to create a jQuery plugin.
@@ -6128,7 +6128,7 @@ return Packery;
             } else if (path.match(/^(.*?)2(.*?$)/)) {
 
                 // page= is used in django:
-                // https://www.infinite-scroll.com/changelog/comment-page-1/#comment-127
+                // http://www.infinite-scroll.com/changelog/comment-page-1/#comment-127
                 if (path.match(/^(.*?page=)2(\/.*|$)/)) {
                     path = path.match(/^(.*?page=)2(\/.*|$)/).slice(1);
                     return path;
@@ -6690,7 +6690,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   var keyCounter = 0
   var allWaypoints = {}
 
-  /* https://imakewebthings.com/waypoints/api/waypoint */
+  /* http://imakewebthings.com/waypoints/api/waypoint */
   function Waypoint(options) {
     if (!options) {
       throw new Error('No options passed to Waypoint constructor')
@@ -6741,7 +6741,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/destroy */
+  /* http://imakewebthings.com/waypoints/api/destroy */
   Waypoint.prototype.destroy = function() {
     this.context.remove(this)
     this.group.remove(this)
@@ -6749,14 +6749,14 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/disable */
+  /* http://imakewebthings.com/waypoints/api/disable */
   Waypoint.prototype.disable = function() {
     this.enabled = false
     return this
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/enable */
+  /* http://imakewebthings.com/waypoints/api/enable */
   Waypoint.prototype.enable = function() {
     this.context.refresh()
     this.enabled = true
@@ -6764,13 +6764,13 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/next */
+  /* http://imakewebthings.com/waypoints/api/next */
   Waypoint.prototype.next = function() {
     return this.group.next(this)
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/previous */
+  /* http://imakewebthings.com/waypoints/api/previous */
   Waypoint.prototype.previous = function() {
     return this.group.previous(this)
   }
@@ -6787,19 +6787,19 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/destroy-all */
+  /* http://imakewebthings.com/waypoints/api/destroy-all */
   Waypoint.destroyAll = function() {
     Waypoint.invokeAll('destroy')
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/disable-all */
+  /* http://imakewebthings.com/waypoints/api/disable-all */
   Waypoint.disableAll = function() {
     Waypoint.invokeAll('disable')
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/enable-all */
+  /* http://imakewebthings.com/waypoints/api/enable-all */
   Waypoint.enableAll = function() {
     Waypoint.Context.refreshAll()
     for (var waypointKey in allWaypoints) {
@@ -6809,19 +6809,19 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/refresh-all */
+  /* http://imakewebthings.com/waypoints/api/refresh-all */
   Waypoint.refreshAll = function() {
     Waypoint.Context.refreshAll()
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/viewport-height */
+  /* http://imakewebthings.com/waypoints/api/viewport-height */
   Waypoint.viewportHeight = function() {
     return window.innerHeight || document.documentElement.clientHeight
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/viewport-width */
+  /* http://imakewebthings.com/waypoints/api/viewport-width */
   Waypoint.viewportWidth = function() {
     return document.documentElement.clientWidth
   }
@@ -6860,7 +6860,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   var Waypoint = window.Waypoint
   var oldWindowLoad = window.onload
 
-  /* https://imakewebthings.com/waypoints/api/context */
+  /* http://imakewebthings.com/waypoints/api/context */
   function Context(element) {
     this.element = element
     this.Adapter = Waypoint.Adapter
@@ -7021,7 +7021,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/context-destroy */
+  /* http://imakewebthings.com/waypoints/api/context-destroy */
   Context.prototype.destroy = function() {
     var allWaypoints = []
     for (var axis in this.waypoints) {
@@ -7035,7 +7035,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/context-refresh */
+  /* http://imakewebthings.com/waypoints/api/context-refresh */
   Context.prototype.refresh = function() {
     /*eslint-disable eqeqeq */
     var isWindow = this.element == this.element.window
@@ -7135,7 +7135,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/context-find-by-element */
+  /* http://imakewebthings.com/waypoints/api/context-find-by-element */
   Context.findByElement = function(element) {
     return contexts[element.waypointContextKey]
   }
@@ -7174,7 +7174,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
   var Waypoint = window.Waypoint
 
-  /* https://imakewebthings.com/waypoints/api/group */
+  /* http://imakewebthings.com/waypoints/api/group */
   function Group(options) {
     this.name = options.name
     this.axis = options.axis
@@ -7244,13 +7244,13 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/first */
+  /* http://imakewebthings.com/waypoints/api/first */
   Group.prototype.first = function() {
     return this.waypoints[0]
   }
 
   /* Public */
-  /* https://imakewebthings.com/waypoints/api/last */
+  /* http://imakewebthings.com/waypoints/api/last */
   Group.prototype.last = function() {
     return this.waypoints[this.waypoints.length - 1]
   }
@@ -7353,7 +7353,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
   var Waypoint = window.Waypoint
 
-  /* https://imakewebthings.com/waypoints/shortcuts/inview */
+  /* http://imakewebthings.com/waypoints/shortcuts/inview */
   function Inview(options) {
     this.options = Waypoint.Adapter.extend({}, Inview.defaults, options)
     this.axis = this.options.horizontal ? 'horizontal' : 'vertical'
@@ -7463,13 +7463,13 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 /*
  * SmartMenus jQuery v0.9.6
- * https://www.smartmenus.org/
+ * http://www.smartmenus.org/
  *
  * Copyright 2014 Vasil Dinkov, Vadikom Web Ltd.
- * https://vadikom.com/
+ * http://vadikom.com/
  *
  * Released under the MIT license:
- * https://www.opensource.org/licenses/MIT
+ * http://www.opensource.org/licenses/MIT
  */
 
 (function($) {
@@ -7766,7 +7766,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 				return this.getOffset($elm, true);
 			},
 			// returns precise width/height float values in IE9+, FF4+, recent WebKit
-			// https://vadikom.com/dailies/offsetwidth-offsetheight-useless-in-ie9-firefox4/
+			// http://vadikom.com/dailies/offsetwidth-offsetheight-useless-in-ie9-firefox4/
 			getOffset: function($elm, height) {
 				var old;
 				if ($elm.css('display') == 'none') {
@@ -8554,7 +8554,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 })(jQuery);
 /*
- * jQuery Easing v1.3 - https://gsgd.co.uk/sandbox/jquery/easing/
+ * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
  *
  * Uses the built in easing capabilities added In jQuery 1.1
  * to offer multiple easing options
@@ -8759,8 +8759,8 @@ jQuery.extend( jQuery.easing,
  *
  */
 (function($, window, undefined) {
-    // https://paulirish.com/2011/requestanimationframe-for-smart-animating/
-    // https://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+    // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+    // http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
  
     // requestAnimationFrame polyfill by Erik Möller
     // fixes from Paul Irish and Tino Zijdel
@@ -8816,11 +8816,11 @@ jQuery.extend( jQuery.easing,
     };
  
 }(jQuery, this));
-/*! Copyright (c) 2011 Brandon Aaron (https://brandonaaron.net)
+/*! Copyright (c) 2011 Brandon Aaron (http://brandonaaron.net)
  * Licensed under the MIT License (LICENSE.txt).
  *
- * Thanks to: https://adomas.org/javascript-mouse-wheel/ for some pointers.
- * Thanks to: Mathias Bank(https://www.mathias-bank.de) for a scope bug fix.
+ * Thanks to: http://adomas.org/javascript-mouse-wheel/ for some pointers.
+ * Thanks to: Mathias Bank(http://www.mathias-bank.de) for a scope bug fix.
  * Thanks to: Seamus Leahy for adding deltaX and deltaY
  *
  * Version: 3.0.6
@@ -8900,12 +8900,12 @@ jQuery.extend( jQuery.easing,
 })(jQuery);
 /**
  * jQuery iLightBox - Revolutionary Lightbox Plugin
- * https://www.ilightbox.net/
+ * http://www.ilightbox.net/
  *
  * @version: 2.2.4 - October 14, 2017
  *
  * @author: iProDev (Hemn Chawroka)
- *          https://www.iprodev.com/
+ *          http://www.iprodev.com/
  *
  */
 (function($, window, undefined) {
@@ -8946,8 +8946,8 @@ jQuery.extend( jQuery.easing,
 		random = Math.random,
 
 		pluginspages = {
-			quicktime: 'https://www.apple.com/quicktime/download',
-			flash: 'https://www.adobe.com/go/getflash'
+			quicktime: 'http://www.apple.com/quicktime/download',
+			flash: 'http://www.adobe.com/go/getflash'
 		},
 
 		iLightBox = function(el, options, items, instant) {
@@ -10677,11 +10677,11 @@ jQuery.extend( jQuery.easing,
 
 				switch (item) {
 					case 'facebook':
-						source = "https://www.facebook.com/share.php?v=4&src=bm&u={URL}",
+						source = "http://www.facebook.com/share.php?v=4&src=bm&u={URL}",
 							text = "Share on Facebook";
 						break;
 					case 'twitter':
-						source = "https://twitter.com/home?status={URL}",
+						source = "http://twitter.com/home?status={URL}",
 							text = "Share on Twitter";
 						break;
 					case 'googleplus':
@@ -10689,15 +10689,15 @@ jQuery.extend( jQuery.easing,
 							text = "Share on Google+";
 						break;
 					case 'delicious':
-						source = "https://delicious.com/post?url={URL}",
+						source = "http://delicious.com/post?url={URL}",
 							text = "Share on Delicious";
 						break;
 					case 'digg':
-						source = "https://digg.com/submit?phase=2&url={URL}",
+						source = "http://digg.com/submit?phase=2&url={URL}",
 							text = "Share on Digg";
 						break;
 					case 'reddit':
-						source = "https://reddit.com/submit?url={URL}",
+						source = "http://reddit.com/submit?url={URL}",
 							text = "Share on reddit";
 						break;
 				}
@@ -12098,7 +12098,7 @@ jQuery.extend( jQuery.easing,
 	*/
 	var PluginDetect={version:"0.7.9",name:"PluginDetect",handler:function(c,b,a){return function(){c(b,a)}},openTag:"<",isDefined:function(b){return typeof b!="undefined"},isArray:function(b){return(/array/i).test(Object.prototype.toString.call(b))},isFunc:function(b){return typeof b=="function"},isString:function(b){return typeof b=="string"},isNum:function(b){return typeof b=="number"},isStrNum:function(b){return(typeof b=="string"&&(/\d/).test(b))},getNumRegx:/[\d][\d\.\_,-]*/,splitNumRegx:/[\.\_,-]/g,getNum:function(b,c){var d=this,a=d.isStrNum(b)?(d.isDefined(c)?new RegExp(c):d.getNumRegx).exec(b):null;return a?a[0]:null},compareNums:function(h,f,d){var e=this,c,b,a,g=parseInt;if(e.isStrNum(h)&&e.isStrNum(f)){if(e.isDefined(d)&&d.compareNums){return d.compareNums(h,f)}c=h.split(e.splitNumRegx);b=f.split(e.splitNumRegx);for(a=0;a<min(c.length,b.length);a++){if(g(c[a],10)>g(b[a],10)){return 1}if(g(c[a],10)<g(b[a],10)){return -1}}}return 0},formatNum:function(b,c){var d=this,a,e;if(!d.isStrNum(b)){return null}if(!d.isNum(c)){c=4}c--;e=b.replace(/\s/g,"").split(d.splitNumRegx).concat(["0","0","0","0"]);for(a=0;a<4;a++){if(/^(0+)(.+)$/.test(e[a])){e[a]=RegExp.$2}if(a>c||!(/\d/).test(e[a])){e[a]="0"}}return e.slice(0,4).join(",")},$$hasMimeType:function(a){return function(c){if(!a.isIE&&c){var f,e,b,d=a.isArray(c)?c:(a.isString(c)?[c]:[]);for(b=0;b<d.length;b++){if(a.isString(d[b])&&/[^\s]/.test(d[b])){f=navigator.mimeTypes[d[b]];e=f?f.enabledPlugin:0;if(e&&(e.name||e.description)){return f}}}}return null}},findNavPlugin:function(l,e,c){var j=this,h=new RegExp(l,"i"),d=(!j.isDefined(e)||e)?/\d/:0,k=c?new RegExp(c,"i"):0,a=navigator.plugins,g="",f,b,m;for(f=0;f<a.length;f++){m=a[f].description||g;b=a[f].name||g;if((h.test(m)&&(!d||d.test(RegExp.leftContext+RegExp.rightContext)))||(h.test(b)&&(!d||d.test(RegExp.leftContext+RegExp.rightContext)))){if(!k||!(k.test(m)||k.test(b))){return a[f]}}}return null},getMimeEnabledPlugin:function(k,m,c){var e=this,f,b=new RegExp(m,"i"),h="",g=c?new RegExp(c,"i"):0,a,l,d,j=e.isString(k)?[k]:k;for(d=0;d<j.length;d++){if((f=e.hasMimeType(j[d]))&&(f=f.enabledPlugin)){l=f.description||h;a=f.name||h;if(b.test(l)||b.test(a)){if(!g||!(g.test(l)||g.test(a))){return f}}}}return 0},getPluginFileVersion:function(f,b){var h=this,e,d,g,a,c=-1;if(h.OS>2||!f||!f.version||!(e=h.getNum(f.version))){return b}if(!b){return e}e=h.formatNum(e);b=h.formatNum(b);d=b.split(h.splitNumRegx);g=e.split(h.splitNumRegx);for(a=0;a<d.length;a++){if(c>-1&&a>c&&d[a]!="0"){return b}if(g[a]!=d[a]){if(c==-1){c=a}if(d[a]!="0"){return b}}}return e},AXO:window.ActiveXObject,getAXO:function(a){var f=null,d,b=this,c={};try{f=new b.AXO(a)}catch(d){}return f},convertFuncs:function(f){var a,g,d,b=/^[\$][\$]/,c=this;for(a in f){if(b.test(a)){try{g=a.slice(2);if(g.length>0&&!f[g]){f[g]=f[a](f);delete f[a]}}catch(d){}}}},initObj:function(e,b,d){var a,c;if(e){if(e[b[0]]==1||d){for(a=0;a<b.length;a=a+2){e[b[a]]=b[a+1]}}for(a in e){c=e[a];if(c&&c[b[0]]==1){this.initObj(c,b)}}}},initScript:function(){var d=this,a=navigator,h,i=document,l=a.userAgent||"",j=a.vendor||"",b=a.platform||"",k=a.product||"";d.initObj(d,["$",d]);for(h in d.Plugins){if(d.Plugins[h]){d.initObj(d.Plugins[h],["$",d,"$$",d.Plugins[h]],1)}}d.convertFuncs(d);d.OS=100;if(b){var g=["Win",1,"Mac",2,"Linux",3,"FreeBSD",4,"iPhone",21.1,"iPod",21.2,"iPad",21.3,"Win.*CE",22.1,"Win.*Mobile",22.2,"Pocket\\s*PC",22.3,"",100];for(h=g.length-2;h>=0;h=h-2){if(g[h]&&new RegExp(g[h],"i").test(b)){d.OS=g[h+1];break}}};d.head=i.getElementsByTagName("head")[0]||i.getElementsByTagName("body")[0]||i.body||null;d.isIE=new Function("return/*@cc_on!@*/!1")();d.verIE=d.isIE&&(/MSIE\s*(\d+\.?\d*)/i).test(l)?parseFloat(RegExp.$1,10):null;d.verIEfull=null;d.docModeIE=null;if(d.isIE){var f,n,c=document.createElement("div");try{c.style.behavior="url(#default#clientcaps)";d.verIEfull=(c.getComponentVersion("{89820200-ECBD-11CF-8B85-00AA005B4383}","componentid")).replace(/,/g,".")}catch(f){}n=parseFloat(d.verIEfull||"0",10);d.docModeIE=i.documentMode||((/back/i).test(i.compatMode||"")?5:n)||d.verIE;d.verIE=n||d.docModeIE};d.ActiveXEnabled=false;if(d.isIE){var h,m=["Msxml2.XMLHTTP","Msxml2.DOMDocument","Microsoft.XMLDOM","ShockwaveFlash.ShockwaveFlash","TDCCtl.TDCCtl","Shell.UIHelper","Scripting.Dictionary","wmplayer.ocx"];for(h=0;h<m.length;h++){if(d.getAXO(m[h])){d.ActiveXEnabled=true;break}}};d.isGecko=(/Gecko/i).test(k)&&(/Gecko\s*\/\s*\d/i).test(l);d.verGecko=d.isGecko?d.formatNum((/rv\s*\:\s*([\.\,\d]+)/i).test(l)?RegExp.$1:"0.9"):null;d.isChrome=(/Chrome\s*\/\s*(\d[\d\.]*)/i).test(l);d.verChrome=d.isChrome?d.formatNum(RegExp.$1):null;d.isSafari=((/Apple/i).test(j)||(!j&&!d.isChrome))&&(/Safari\s*\/\s*(\d[\d\.]*)/i).test(l);d.verSafari=d.isSafari&&(/Version\s*\/\s*(\d[\d\.]*)/i).test(l)?d.formatNum(RegExp.$1):null;d.isOpera=(/Opera\s*[\/]?\s*(\d+\.?\d*)/i).test(l);d.verOpera=d.isOpera&&((/Version\s*\/\s*(\d+\.?\d*)/i).test(l)||1)?parseFloat(RegExp.$1,10):null;d.addWinEvent("load",d.handler(d.runWLfuncs,d))},init:function(d){var c=this,b,d,a={status:-3,plugin:0};if(!c.isString(d)){return a}if(d.length==1){c.getVersionDelimiter=d;return a}d=d.toLowerCase().replace(/\s/g,"");b=c.Plugins[d];if(!b||!b.getVersion){return a}a.plugin=b;if(!c.isDefined(b.installed)){b.installed=null;b.version=null;b.version0=null;b.getVersionDone=null;b.pluginName=d}c.garbage=false;if(c.isIE&&!c.ActiveXEnabled&&d!=="java"){a.status=-2;return a}a.status=1;return a},fPush:function(b,a){var c=this;if(c.isArray(a)&&(c.isFunc(b)||(c.isArray(b)&&b.length>0&&c.isFunc(b[0])))){a.push(b)}},callArray:function(b){var c=this,a;if(c.isArray(b)){for(a=0;a<b.length;a++){if(b[a]===null){return}c.call(b[a]);b[a]=null}}},call:function(c){var b=this,a=b.isArray(c)?c.length:-1;if(a>0&&b.isFunc(c[0])){c[0](b,a>1?c[1]:0,a>2?c[2]:0,a>3?c[3]:0)}else{if(b.isFunc(c)){c(b)}}},getVersionDelimiter:",",$$getVersion:function(a){return function(g,d,c){var e=a.init(g),f,b,h={};if(e.status<0){return null};f=e.plugin;if(f.getVersionDone!=1){f.getVersion(null,d,c);if(f.getVersionDone===null){f.getVersionDone=1}}a.cleanup();b=(f.version||f.version0);b=b?b.replace(a.splitNumRegx,a.getVersionDelimiter):b;return b}},cleanup:function(){var a=this;if(a.garbage&&a.isDefined(window.CollectGarbage)){window.CollectGarbage()}},isActiveXObject:function(d,b){var f=this,a=false,g,c='<object width="1" height="1" style="display:none" '+d.getCodeBaseVersion(b)+">"+d.HTML+f.openTag+"/object>";if(!f.head){return a}f.head.insertBefore(document.createElement("object"),f.head.firstChild);f.head.firstChild.outerHTML=c;try{f.head.firstChild.classid=d.classID}catch(g){}try{if(f.head.firstChild.object){a=true}}catch(g){}try{if(a&&f.head.firstChild.readyState<4){f.garbage=true}}catch(g){}f.head.removeChild(f.head.firstChild);return a},codebaseSearch:function(f,b){var c=this;if(!c.ActiveXEnabled||!f){return null}if(f.BIfuncs&&f.BIfuncs.length&&f.BIfuncs[f.BIfuncs.length-1]!==null){c.callArray(f.BIfuncs)}var d,o=f.SEARCH,k={};if(c.isStrNum(b)){if(o.match&&o.min&&c.compareNums(b,o.min)<=0){return true}if(o.match&&o.max&&c.compareNums(b,o.max)>=0){return false}d=c.isActiveXObject(f,b);if(d&&(!o.min||c.compareNums(b,o.min)>0)){o.min=b}if(!d&&(!o.max||c.compareNums(b,o.max)<0)){o.max=b}return d};var e=[0,0,0,0],l=[].concat(o.digits),a=o.min?1:0,j,i,h,g,m,n=function(p,r){var q=[].concat(e);q[p]=r;return c.isActiveXObject(f,q.join(","))};if(o.max){g=o.max.split(c.splitNumRegx);for(j=0;j<g.length;j++){g[j]=parseInt(g[j],10)}if(g[0]<l[0]){l[0]=g[0]}}if(o.min){m=o.min.split(c.splitNumRegx);for(j=0;j<m.length;j++){m[j]=parseInt(m[j],10)}if(m[0]>e[0]){e[0]=m[0]}}if(m&&g){for(j=1;j<m.length;j++){if(m[j-1]!=g[j-1]){break}if(g[j]<l[j]){l[j]=g[j]}if(m[j]>e[j]){e[j]=m[j]}}}if(o.max){for(j=1;j<l.length;j++){if(g[j]>0&&l[j]==0&&l[j-1]<o.digits[j-1]){l[j-1]+=1;break}}};for(j=0;j<l.length;j++){h={};for(i=0;i<20;i++){if(l[j]-e[j]<1){break}d=round((l[j]+e[j])/2);if(h["a"+d]){break}h["a"+d]=1;if(n(j,d)){e[j]=d;a=1}else{l[j]=d}}l[j]=e[j];if(!a&&n(j,e[j])){a=1};if(!a){break}};return a?e.join(","):null},addWinEvent:function(d,c){var e=this,a=window,b;if(e.isFunc(c)){if(a.addEventListener){a.addEventListener(d,c,false)}else{if(a.attachEvent){a.attachEvent("on"+d,c)}else{b=a["on"+d];a["on"+d]=e.winHandler(c,b)}}}},winHandler:function(d,c){return function(){d();if(typeof c=="function"){c()}}},WLfuncs0:[],WLfuncs:[],runWLfuncs:function(a){var b={};a.winLoaded=true;a.callArray(a.WLfuncs0);a.callArray(a.WLfuncs);if(a.onDoneEmptyDiv){a.onDoneEmptyDiv()}},winLoaded:false,$$onWindowLoaded:function(a){return function(b){if(a.winLoaded){a.call(b)}else{a.fPush(b,a.WLfuncs)}}},div:null,divID:"plugindetect",divWidth:50,pluginSize:1,emptyDiv:function(){var d=this,b,h,c,a,f,g;if(d.div&&d.div.childNodes){for(b=d.div.childNodes.length-1;b>=0;b--){c=d.div.childNodes[b];if(c&&c.childNodes){for(h=c.childNodes.length-1;h>=0;h--){g=c.childNodes[h];try{c.removeChild(g)}catch(f){}}}if(c){try{d.div.removeChild(c)}catch(f){}}}}if(!d.div){a=document.getElementById(d.divID);if(a){d.div=a}}if(d.div&&d.div.parentNode){try{d.div.parentNode.removeChild(d.div)}catch(f){}d.div=null}},DONEfuncs:[],onDoneEmptyDiv:function(){var c=this,a,b;if(!c.winLoaded){return}if(c.WLfuncs&&c.WLfuncs.length&&c.WLfuncs[c.WLfuncs.length-1]!==null){return}for(a in c){b=c[a];if(b&&b.funcs){if(b.OTF==3){return}if(b.funcs.length&&b.funcs[b.funcs.length-1]!==null){return}}}for(a=0;a<c.DONEfuncs.length;a++){c.callArray(c.DONEfuncs)}c.emptyDiv()},getWidth:function(c){if(c){var a=c.scrollWidth||c.offsetWidth,b=this;if(b.isNum(a)){return a}}return -1},getTagStatus:function(m,g,a,b){var c=this,f,k=m.span,l=c.getWidth(k),h=a.span,j=c.getWidth(h),d=g.span,i=c.getWidth(d);if(!k||!h||!d||!c.getDOMobj(m)){return -2}if(j<i||l<0||j<0||i<0||i<=c.pluginSize||c.pluginSize<1){return 0}if(l>=i){return -1}try{if(l==c.pluginSize&&(!c.isIE||c.getDOMobj(m).readyState==4)){if(!m.winLoaded&&c.winLoaded){return 1}if(m.winLoaded&&c.isNum(b)){if(!c.isNum(m.count)){m.count=b}if(b-m.count>=10){return 1}}}}catch(f){}return 0},getDOMobj:function(g,a){var f,d=this,c=g?g.span:0,b=c&&c.firstChild?1:0;try{if(b&&a){d.div.focus()}}catch(f){}return b?c.firstChild:null},setStyle:function(b,g){var f=b.style,a,d,c=this;if(f&&g){for(a=0;a<g.length;a=a+2){try{f[g[a]]=g[a+1]}catch(d){}}}},insertDivInBody:function(i,g){var f,c=this,h="pd33993399",b=null,d=g?window.top.document:window.document,a=d.getElementsByTagName("body")[0]||d.body;if(!a){try{d.write('<div id="'+h+'">.'+c.openTag+"/div>");b=d.getElementById(h)}catch(f){}}a=d.getElementsByTagName("body")[0]||d.body;if(a){a.insertBefore(i,a.firstChild);if(b){a.removeChild(b)}}},insertHTML:function(f,b,g,a,k){var l,m=document,j=this,p,o=m.createElement("span"),n,i;var c=["outlineStyle","none","borderStyle","none","padding","0px","margin","0px","visibility","visible"];var h="outline-style:none;border-style:none;padding:0px;margin:0px;visibility:visible;";if(!j.isDefined(a)){a=""}if(j.isString(f)&&(/[^\s]/).test(f)){f=f.toLowerCase().replace(/\s/g,"");p=j.openTag+f+' width="'+j.pluginSize+'" height="'+j.pluginSize+'" ';p+='style="'+h+'display:inline;" ';for(n=0;n<b.length;n=n+2){if(/[^\s]/.test(b[n+1])){p+=b[n]+'="'+b[n+1]+'" '}}p+=">";for(n=0;n<g.length;n=n+2){if(/[^\s]/.test(g[n+1])){p+=j.openTag+'param name="'+g[n]+'" value="'+g[n+1]+'" />'}}p+=a+j.openTag+"/"+f+">"}else{p=a}if(!j.div){i=m.getElementById(j.divID);if(i){j.div=i}else{j.div=m.createElement("div");j.div.id=j.divID}j.setStyle(j.div,c.concat(["width",j.divWidth+"px","height",(j.pluginSize+3)+"px","fontSize",(j.pluginSize+3)+"px","lineHeight",(j.pluginSize+3)+"px","verticalAlign","baseline","display","block"]));if(!i){j.setStyle(j.div,["position","absolute","right","0px","top","0px"]);j.insertDivInBody(j.div)}}if(j.div&&j.div.parentNode){j.setStyle(o,c.concat(["fontSize",(j.pluginSize+3)+"px","lineHeight",(j.pluginSize+3)+"px","verticalAlign","baseline","display","inline"]));try{o.innerHTML=p}catch(l){};try{j.div.appendChild(o)}catch(l){};return{span:o,winLoaded:j.winLoaded,tagName:f,outerHTML:p}}return{span:null,winLoaded:j.winLoaded,tagName:"",outerHTML:p}},Plugins:{quicktime:{mimeType:["video/quicktime","application/x-quicktimeplayer","image/x-macpaint","image/x-quicktime"],progID:"QuickTimeCheckObject.QuickTimeCheck.1",progID0:"QuickTime.QuickTime",classID:"clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B",minIEver:7,HTML:'<param name="src" value="" /><param name="controller" value="false" />',getCodeBaseVersion:function(a){return'codebase="#version='+a+'"'},SEARCH:{min:0,max:0,match:0,digits:[16,128,128,0]},getVersion:function(c){var f=this,d=f.$,a=null,e=null,b;if(!d.isIE){if(d.hasMimeType(f.mimeType)){e=d.OS!=3?d.findNavPlugin("QuickTime.*Plug-?in",0):null;if(e&&e.name){a=d.getNum(e.name)}}}else{if(d.isStrNum(c)){b=c.split(d.splitNumRegx);if(b.length>3&&parseInt(b[3],10)>0){b[3]="9999"}c=b.join(",")}if(d.isStrNum(c)&&d.verIE>=f.minIEver&&f.canUseIsMin()>0){f.installed=f.isMin(c);f.getVersionDone=0;return}f.getVersionDone=1;if(!a&&d.verIE>=f.minIEver){a=f.CDBASE2VER(d.codebaseSearch(f))}if(!a){e=d.getAXO(f.progID);if(e&&e.QuickTimeVersion){a=e.QuickTimeVersion.toString(16);a=parseInt(a.charAt(0),16)+"."+parseInt(a.charAt(1),16)+"."+parseInt(a.charAt(2),16)}}}f.installed=a?1:(e?0:-1);f.version=d.formatNum(a,3)},cdbaseUpper:["7,60,0,0","0,0,0,0"],cdbaseLower:["7,50,0,0",null],cdbase2ver:[function(c,b){var a=b.split(c.$.splitNumRegx);return[a[0],a[1].charAt(0),a[1].charAt(1),a[2]].join(",")},null],CDBASE2VER:function(f){var e=this,c=e.$,b,a=e.cdbaseUpper,d=e.cdbaseLower;if(f){f=c.formatNum(f);for(b=0;b<a.length;b++){if(a[b]&&c.compareNums(f,a[b])<0&&d[b]&&c.compareNums(f,d[b])>=0&&e.cdbase2ver[b]){return e.cdbase2ver[b](e,f)}}}return f},canUseIsMin:function(){var f=this,d=f.$,b,c=f.canUseIsMin,a=f.cdbaseUpper,e=f.cdbaseLower;if(!c.value){c.value=-1;for(b=0;b<a.length;b++){if(a[b]&&d.codebaseSearch(f,a[b])){c.value=1;break}if(e[b]&&d.codebaseSearch(f,e[b])){c.value=-1;break}}}f.SEARCH.match=c.value==1?1:0;return c.value},isMin:function(c){var b=this,a=b.$;return a.codebaseSearch(b,c)?0.7:-1}},flash:{mimeType:"application/x-shockwave-flash",progID:"ShockwaveFlash.ShockwaveFlash",classID:"clsid:D27CDB6E-AE6D-11CF-96B8-444553540000",getVersion:function(){var b=function(i){if(!i){return null}var e=/[\d][\d\,\.\s]*[rRdD]{0,1}[\d\,]*/.exec(i);return e?e[0].replace(/[rRdD\.]/g,",").replace(/\s/g,""):null};var j=this,g=j.$,k,h,l=null,c=null,a=null,f,m,d;if(!g.isIE){m=g.hasMimeType(j.mimeType);if(m){f=g.getDOMobj(g.insertHTML("object",["type",j.mimeType],[],"",j));try{l=g.getNum(f.GetVariable("$version"))}catch(k){}}if(!l){d=m?m.enabledPlugin:null;if(d&&d.description){l=b(d.description)}if(l){l=g.getPluginFileVersion(d,l)}}}else{for(h=15;h>2;h--){c=g.getAXO(j.progID+"."+h);if(c){a=h.toString();break}}if(!c){c=g.getAXO(j.progID)}if(a=="6"){try{c.AllowScriptAccess="always"}catch(k){return"6,0,21,0"}}try{l=b(c.GetVariable("$version"))}catch(k){}if(!l&&a){l=a}}j.installed=l?1:-1;j.version=g.formatNum(l);return true}},shockwave:{mimeType:"application/x-director",progID:"SWCtl.SWCtl",classID:"clsid:166B1BCA-3F9C-11CF-8075-444553540000",getVersion:function(){var a=null,b=null,g,f,d=this,c=d.$;if(!c.isIE){f=c.findNavPlugin("Shockwave\\s*for\\s*Director");if(f&&f.description&&c.hasMimeType(d.mimeType)){a=c.getNum(f.description)}if(a){a=c.getPluginFileVersion(f,a)}}else{try{b=c.getAXO(d.progID).ShockwaveVersion("")}catch(g){}if(c.isString(b)&&b.length>0){a=c.getNum(b)}else{if(c.getAXO(d.progID+".8")){a="8"}else{if(c.getAXO(d.progID+".7")){a="7"}else{if(c.getAXO(d.progID+".1")){a="6"}}}}}d.installed=a?1:-1;d.version=c.formatNum(a)}},zz:0}};PluginDetect.initScript();
 
-	var gArgCountErr='The "%%" function requires an even number of arguments.\nArguments should be in the form "atttributeName", "attributeValue", ...',gTagAttrs=null,gQTGeneratorVersion=1;function AC_QuickTimeVersion(){return gQTGeneratorVersion}function _QTComplain(a,b){b=b.replace("%%",a);alert(b)}function _QTAddAttribute(a,b,c){var d;d=gTagAttrs[a+b];null==d&&(d=gTagAttrs[b]);return null!=d?(0==b.indexOf(a)&&null==c&&(c=b.substring(a.length)),null==c&&(c=b),c+'="'+d+'" '):""}function _QTAddObjectAttr(a,b){if(0==a.indexOf("emb#"))return"";0==a.indexOf("obj#")&&null==b&&(b=a.substring(4));return _QTAddAttribute("obj#",a,b)}function _QTAddEmbedAttr(a,b){if(0==a.indexOf("obj#"))return"";0==a.indexOf("emb#")&&null==b&&(b=a.substring(4));return _QTAddAttribute("emb#",a,b)}function _QTAddObjectParam(a,b){var c,d="",e=b?" />":">";-1==a.indexOf("emb#")&&(c=gTagAttrs["obj#"+a],null==c&&(c=gTagAttrs[a]),0==a.indexOf("obj#")&&(a=a.substring(4)),null!=c&&(d='  <param name="'+a+'" value="'+c+'"'+e+"\n"));return d}function _QTDeleteTagAttrs(){for(var a=0;a<arguments.length;a++){var b=arguments[a];delete gTagAttrs[b];delete gTagAttrs["emb#"+b];delete gTagAttrs["obj#"+b]}}function _QTGenerate(a,b,c){if(4>c.length||0!=c.length%2)return _QTComplain(a,gArgCountErr),"";gTagAttrs=[];gTagAttrs.src=c[0];gTagAttrs.width=c[1];gTagAttrs.height=c[2];gTagAttrs.classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B";gTagAttrs.pluginspage="https://www.apple.com/quicktime/download/";a=c[3];if(null==a||""==a)a="6,0,2,0";gTagAttrs.codebase="https://www.apple.com/qtactivex/qtplugin.cab#version="+a;for(var d,e=4;e<c.length;e+=2)d=c[e].toLowerCase(),a=c[e+1],"name"==d||"id"==d?gTagAttrs.name=a:gTagAttrs[d]=a;c="<object "+_QTAddObjectAttr("classid")+_QTAddObjectAttr("width")+_QTAddObjectAttr("height")+_QTAddObjectAttr("codebase")+_QTAddObjectAttr("name","id")+_QTAddObjectAttr("tabindex")+_QTAddObjectAttr("hspace")+_QTAddObjectAttr("vspace")+_QTAddObjectAttr("border")+_QTAddObjectAttr("align")+_QTAddObjectAttr("class")+_QTAddObjectAttr("title")+_QTAddObjectAttr("accesskey")+_QTAddObjectAttr("noexternaldata")+">\n"+_QTAddObjectParam("src",b);e="  <embed "+_QTAddEmbedAttr("src")+_QTAddEmbedAttr("width")+_QTAddEmbedAttr("height")+_QTAddEmbedAttr("pluginspage")+_QTAddEmbedAttr("name")+_QTAddEmbedAttr("align")+_QTAddEmbedAttr("tabindex");_QTDeleteTagAttrs("src","width","height","pluginspage","classid","codebase","name","tabindex","hspace","vspace","border","align","noexternaldata","class","title","accesskey");for(d in gTagAttrs)a=gTagAttrs[d],null!=a&&(e+=_QTAddEmbedAttr(d),c+=_QTAddObjectParam(d,b));return c+e+"> </embed>\n</object>"}function QT_GenerateOBJECTText(){return _QTGenerate("QT_GenerateOBJECTText",!1,arguments)};
+	var gArgCountErr='The "%%" function requires an even number of arguments.\nArguments should be in the form "atttributeName", "attributeValue", ...',gTagAttrs=null,gQTGeneratorVersion=1;function AC_QuickTimeVersion(){return gQTGeneratorVersion}function _QTComplain(a,b){b=b.replace("%%",a);alert(b)}function _QTAddAttribute(a,b,c){var d;d=gTagAttrs[a+b];null==d&&(d=gTagAttrs[b]);return null!=d?(0==b.indexOf(a)&&null==c&&(c=b.substring(a.length)),null==c&&(c=b),c+'="'+d+'" '):""}function _QTAddObjectAttr(a,b){if(0==a.indexOf("emb#"))return"";0==a.indexOf("obj#")&&null==b&&(b=a.substring(4));return _QTAddAttribute("obj#",a,b)}function _QTAddEmbedAttr(a,b){if(0==a.indexOf("obj#"))return"";0==a.indexOf("emb#")&&null==b&&(b=a.substring(4));return _QTAddAttribute("emb#",a,b)}function _QTAddObjectParam(a,b){var c,d="",e=b?" />":">";-1==a.indexOf("emb#")&&(c=gTagAttrs["obj#"+a],null==c&&(c=gTagAttrs[a]),0==a.indexOf("obj#")&&(a=a.substring(4)),null!=c&&(d='  <param name="'+a+'" value="'+c+'"'+e+"\n"));return d}function _QTDeleteTagAttrs(){for(var a=0;a<arguments.length;a++){var b=arguments[a];delete gTagAttrs[b];delete gTagAttrs["emb#"+b];delete gTagAttrs["obj#"+b]}}function _QTGenerate(a,b,c){if(4>c.length||0!=c.length%2)return _QTComplain(a,gArgCountErr),"";gTagAttrs=[];gTagAttrs.src=c[0];gTagAttrs.width=c[1];gTagAttrs.height=c[2];gTagAttrs.classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B";gTagAttrs.pluginspage="http://www.apple.com/quicktime/download/";a=c[3];if(null==a||""==a)a="6,0,2,0";gTagAttrs.codebase="http://www.apple.com/qtactivex/qtplugin.cab#version="+a;for(var d,e=4;e<c.length;e+=2)d=c[e].toLowerCase(),a=c[e+1],"name"==d||"id"==d?gTagAttrs.name=a:gTagAttrs[d]=a;c="<object "+_QTAddObjectAttr("classid")+_QTAddObjectAttr("width")+_QTAddObjectAttr("height")+_QTAddObjectAttr("codebase")+_QTAddObjectAttr("name","id")+_QTAddObjectAttr("tabindex")+_QTAddObjectAttr("hspace")+_QTAddObjectAttr("vspace")+_QTAddObjectAttr("border")+_QTAddObjectAttr("align")+_QTAddObjectAttr("class")+_QTAddObjectAttr("title")+_QTAddObjectAttr("accesskey")+_QTAddObjectAttr("noexternaldata")+">\n"+_QTAddObjectParam("src",b);e="  <embed "+_QTAddEmbedAttr("src")+_QTAddEmbedAttr("width")+_QTAddEmbedAttr("height")+_QTAddEmbedAttr("pluginspage")+_QTAddEmbedAttr("name")+_QTAddEmbedAttr("align")+_QTAddEmbedAttr("tabindex");_QTDeleteTagAttrs("src","width","height","pluginspage","classid","codebase","name","tabindex","hspace","vspace","border","align","noexternaldata","class","title","accesskey");for(d in gTagAttrs)a=gTagAttrs[d],null!=a&&(e+=_QTAddEmbedAttr(d),c+=_QTAddObjectParam(d,b));return c+e+"> </embed>\n</object>"}function QT_GenerateOBJECTText(){return _QTGenerate("QT_GenerateOBJECTText",!1,arguments)};
 
 
 	/*
@@ -15877,7 +15877,7 @@ uncode_progress_bar();
 /*!
  * jquery.counterup.js 1.0
  *
- * Copyright 2013, Benjamin Intal https://gambit.ph @bfintal
+ * Copyright 2013, Benjamin Intal http://gambit.ph @bfintal
  * Released under the GPL v2 License
  *
  * Date: Nov 26, 2013
@@ -15954,7 +15954,7 @@ uncode_progress_bar();
 })(jQuery);
 
 /*!
- * The Final Countdown for jQuery v2.0.4 (https://hilios.github.io/jQuery.countdown/)
+ * The Final Countdown for jQuery v2.0.4 (http://hilios.github.io/jQuery.countdown/)
  * Copyright (c) 2014 Edson Hilios
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -16254,7 +16254,7 @@ uncode_progress_bar();
             // Element attributes which may contain an image.
             var hasImageAttributes = $.waitForImages.hasImageAttributes || [];
             // To match `url()` references.
-            // Spec: https://www.w3.org/TR/CSS2/syndata.html#value-def-uri
+            // Spec: http://www.w3.org/TR/CSS2/syndata.html#value-def-uri
             var matchUrl = /url\(\s*(['"]?)(.*?)\1\s*\)/g;
 
             if (waitForAll) {
@@ -16389,7 +16389,7 @@ uncode_progress_bar();
  * @copyright (c) 2009 Russ Painter
  * @license   MIT License
  * @homepage  https://github.com/jquery-textfill/jquery-textfill
- * @example   https://jquery-textfill.github.io/jquery-textfill/index.html
+ * @example   http://jquery-textfill.github.io/jquery-textfill/index.html
  */
 ; (function($) {
 
@@ -16525,7 +16525,7 @@ uncode_progress_bar();
 			// consider implementing something akin to
 			// Daniel Hoffmann's answer here:
 			//
-			//     https://stackoverflow.com/a/17433451/1094964
+			//     http://stackoverflow.com/a/17433451/1094964
 			//
 
 			while (minFontPixels < (maxFontPixels - 1)) {
@@ -17098,7 +17098,7 @@ Share = (function(_super) {
   };
 
   Share.prototype.inject_fonts = function() {
-   // return this.inject_stylesheet("https://fonts.googleapis.com/css?family=Lato:900&text=" + this.config.ui.button_text);
+   // return this.inject_stylesheet("http://fonts.googleapis.com/css?family=Lato:900&text=" + this.config.ui.button_text);
   };
 
   Share.prototype.inject_stylesheet = function(url) {
@@ -17241,7 +17241,7 @@ Share = (function(_super) {
 
 // Generated by CoffeeScript 1.9.2
 
-// @license Sticky-kit v1.1.2 | WTFPL | Leaf Corcoran 2015 | https://leafo.net
+// @license Sticky-kit v1.1.2 | WTFPL | Leaf Corcoran 2015 | http://leafo.net
 
 (function() {
   var $, win;
@@ -17511,7 +17511,7 @@ Share = (function(_super) {
  * not use this file except in compliance with the License. You may obtain a
  * copy of the License at
  *
- * https://www.apache.org/licenses/LICENSE-2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
@@ -17533,7 +17533,7 @@ Share = (function(_super) {
 
 /**
  * Integrate [HTML5 history state tracking](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history)
- * with [`bootstrap/tab.js`](https://getbootstrap.com/javascript/#tabs). To enable tracking on a tab element, simply set
+ * with [`bootstrap/tab.js`](http://getbootstrap.com/javascript/#tabs). To enable tracking on a tab element, simply set
  * the `data-tab-history` attribute to true (or a string denoting a tab grouping).
  *
  * See the README for additional information.
@@ -17840,7 +17840,7 @@ BootstrapTabHistory = {
 
 /*!
  * Justified Gallery - v3.6.3
- * https://miromannino.github.io/Justified-Gallery/
+ * http://miromannino.github.io/Justified-Gallery/
  * Copyright (c) 2016 Miro Mannino
  * Licensed under the MIT license.
  */
@@ -18988,7 +18988,7 @@ BootstrapTabHistory = {
 * Customized version of iScroll.js 0.0.1
 * It fixes bugs affecting its integration with fullpage.js
 */
-/*! iScroll v5.2.0 ~ (c) 2008-2016 Matteo Spinelli ~ https://cubiq.org/license */
+/*! iScroll v5.2.0 ~ (c) 2008-2016 Matteo Spinelli ~ http://cubiq.org/license */
 (function (window, document, Math) {
 var rAF = window.requestAnimationFrame  ||
     window.webkitRequestAnimationFrame  ||
@@ -19415,7 +19415,7 @@ IScroll.prototype = {
         // React to left mouse button only
         if ( utils.eventType[e.type] != 1 ) {
           // for button property
-          // https://unixpapa.com/js/mouse.html
+          // http://unixpapa.com/js/mouse.html
           var button;
         if (!e.which) {
           /* IE case */
@@ -22375,8 +22375,8 @@ if ( typeof module != 'undefined' && module.exports ) {
         /**
          * Detecting mousewheel scrolling
          *
-         * https://blogs.sitepointstatic.com/examples/tech/mouse-wheel/index.html
-         * https://www.sitepoint.com/html5-javascript-mouse-wheel/
+         * http://blogs.sitepointstatic.com/examples/tech/mouse-wheel/index.html
+         * http://www.sitepoint.com/html5-javascript-mouse-wheel/
          */
         var prevTime = new Date().getTime();
 
@@ -23246,7 +23246,7 @@ if ( typeof module != 'undefined' && module.exports ) {
                 }
             }else{
                 //in order to call the functions only when the resize is finished
-                //https://stackoverflow.com/questions/4298612/jquery-how-to-call-resize-event-only-once-its-finished-resizing
+                //http://stackoverflow.com/questions/4298612/jquery-how-to-call-resize-event-only-once-its-finished-resizing
                 clearTimeout(resizeId);
 
                 resizeId = setTimeout(function(){
@@ -23653,7 +23653,7 @@ if ( typeof module != 'undefined' && module.exports ) {
         /**
         * Checks for translate3d support
         * @return boolean
-        * https://stackoverflow.com/questions/5661671/detecting-transform-translate3d-support
+        * http://stackoverflow.com/questions/5661671/detecting-transform-translate3d-support
         */
         function support3d() {
             var el = document.createElement('p'),
@@ -23774,7 +23774,7 @@ if ( typeof module != 'undefined' && module.exports ) {
 
         /*
         * Returns and object with Microsoft pointers (for IE<11 and for IE >= 11)
-        * https://msdn.microsoft.com/en-us/library/ie/dn304886(v=vs.85).aspx
+        * http://msdn.microsoft.com/en-us/library/ie/dn304886(v=vs.85).aspx
         */
         function getMSPointer(){
             var pointer;
@@ -24059,7 +24059,7 @@ if ( typeof module != 'undefined' && module.exports ) {
             //anchors can not have the same value as any element ID or NAME
             $.each(options.anchors, function(index, name){
 
-                //case insensitive selectors (https://stackoverflow.com/a/19465187/1081396)
+                //case insensitive selectors (http://stackoverflow.com/a/19465187/1081396)
                 var nameAttr = $document.find('[name]').filter(function() {
                     return $(this).attr('name') && $(this).attr('name').toLowerCase() == name.toLowerCase();
                 });
@@ -24288,7 +24288,7 @@ if ( typeof module != 'undefined' && module.exports ) {
 
 /* ========================================================================
  * Bootstrap: collapse.js v3.1.1
- * https://getbootstrap.com/javascript/#collapse
+ * http://getbootstrap.com/javascript/#collapse
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -24463,7 +24463,7 @@ if ( typeof module != 'undefined' && module.exports ) {
 
 /* ========================================================================
  * Bootstrap: tab.js v3.1.1
- * https://getbootstrap.com/javascript/#tabs
+ * http://getbootstrap.com/javascript/#tabs
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -24595,7 +24595,7 @@ if ( typeof module != 'undefined' && module.exports ) {
 
 /* ========================================================================
  * Bootstrap: tooltip.js v3.1.1
- * https://getbootstrap.com/javascript/#tooltip
+ * http://getbootstrap.com/javascript/#tooltip
  * Inspired by the original jQuery.tipsy by Jason Frame
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
@@ -25018,7 +25018,7 @@ if ( typeof module != 'undefined' && module.exports ) {
 
 /* ========================================================================
  * Bootstrap: transition.js v3.1.1
- * https://getbootstrap.com/javascript/#transitions
+ * http://getbootstrap.com/javascript/#transitions
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -25028,7 +25028,7 @@ if ( typeof module != 'undefined' && module.exports ) {
 +function ($) {
   'use strict';
 
-  // CSS TRANSITION SUPPORT (Shoutout: https://www.modernizr.com/)
+  // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
   // ============================================================
 
   function transitionEnd() {
@@ -25050,7 +25050,7 @@ if ( typeof module != 'undefined' && module.exports ) {
     return false // explicit for ie8 (  ._.)
   }
 
-  // https://blog.alexmaccaw.com/css-transitions
+  // http://blog.alexmaccaw.com/css-transitions
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false, $el = this
     $(this).one($.support.transition.end, function () { called = true })

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="https://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="https://wellformedweb.org/CommentAPI/"
-	xmlns:dc="https://purl.org/dc/elements/1.1/"
-	xmlns:atom="https://www.w3.org/2005/Atom"
-	xmlns:sy="https://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="https://purl.org/rss/1.0/modules/slash/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
 	>
 
 <channel>
 	<title>concerts &#8211; Raphaël Pinel</title>
-	<atom:link href="https://localhost/duplicator1/category/concerts/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/raphaelpinel-headless/category/concerts/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>creative harp</description>
-	<lastBuildDate>Fri, 31 May 2019 08:50:25 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 04 Jun 2019 11:03:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,24 +20,86 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.2.1</generator>
 	<item>
+		<title>Video Dinan Festival 2018</title>
+		<link>/2019/06/04/video-dinan-festival-2018/</link>
+				<pubDate>Tue, 04 Jun 2019 07:32:11 +0000</pubDate>
+		<dc:creator><![CDATA[Raphaël]]></dc:creator>
+				<category><![CDATA[afro-celtic]]></category>
+		<category><![CDATA[concerts]]></category>
+		<category><![CDATA[music]]></category>
+
+		<guid isPermaLink="false">http://localhost:99/duplicator1/?p=134</guid>
+				<description><![CDATA[Here is an own composition called Forest which you can find on my CD NEEMA &#8211; Afro Celtic Adventures. It [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ERxWMCbZDpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Here is an own composition called <strong>Forest</strong> which you can find on my CD NEEMA &#8211; Afro Celtic Adventures.<br />
+It was recorded in July 2018 at my concert at the international harp festival in Dinan, France<br />
+<a href="https://www.harpe-celtique.fr/festival/">https://www.harpe-celtique.fr/festival/</a><br />
+Thank you so much to Mihaela Murariu for filming and editing.<br />
+Thank you to <a href="https://www.camac-harps.com/en/">CAMAC harps</a> for lending me this beautiful Mélusine de Concert harp, so I didn&#8217;t have to carry my own harp.<br />
+It was a great festival. Thank you to all the team of the harp house for inviting me there and to all those who participated.</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Summer Concert in Suodenniemi Finland 30.06.2019</title>
+		<link>/2019/06/04/summer-concert-in-suodenniemi-finland-30-06-2019/</link>
+				<pubDate>Tue, 04 Jun 2019 07:24:01 +0000</pubDate>
+		<dc:creator><![CDATA[Raphaël]]></dc:creator>
+				<category><![CDATA[concerts]]></category>
+		<category><![CDATA[music]]></category>
+
+		<guid isPermaLink="false">http://localhost:99/duplicator1/?p=129</guid>
+				<description><![CDATA[Hei kauniin musiikin ystävät, taas tänä vuonna saamme nauttia Raphaël Pinelin upeasta harppumusiikista täällä Suomessa, Koskelan Museotorpalla, Suodenniemellä. Lämpimästi tervetuloa! [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web.jpg"><img src="/wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web-724x1024.jpg" alt="" width="724" height="1024" class="alignnone size-large wp-image-131" srcset="/wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web-724x1024.jpg 724w, /wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web-212x300.jpg 212w, /wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web-768x1086.jpg 768w, /wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web.jpg 1240w" sizes="(max-width: 724px) 100vw, 724px" /></a><br />
+Hei kauniin musiikin ystävät,</p>
+<p>taas tänä vuonna saamme nauttia Raphaël Pinelin upeasta harppumusiikista täällä Suomessa,<br />
+Koskelan Museotorpalla, Suodenniemellä.</p>
+<p>Lämpimästi tervetuloa!</p>
+<p>Sydäntäkoskettava Harppumusiikki konsertti<br />
+Tuulahdus Ranskasta kesäiltaan harppumusiikin sävelissä </p>
+<p>Raphaël Pinel<br />
+Ranskalainen muusikko ja säveltäjä</p>
+<p>Raphaël luo omalla herkällä ja hauskalla tavalla tunnelman Ranskasta ja muista eksoottisistakin maista upean kuuloisella kelttiläisellä harpulla.<br />
+Ainutlaatuinen kokemus!   </p>
+<p>Ranskalainen Raphaël Pinel on luova ja intuitiivinen harpisti ja säveltäjä.<br />
+Kelttiläistä harppua hän on soittanut yli 25 vuoden ajan.<br />
+Raphaël on toiminut useita vuosia kansainvälisenä ammattimuusikkona konsertoiden mm. eri harppu- ja musiikkifestivaaleilla, luoden uusia sävellyksiä, tehden levytyksiä ja opettaen harpun soittoa. </p>
+<p>Ilmaisemaan monipuolisia näkökulmiaan rikkaista musikaalisista ideoistaan ja improvisaatioistaan hän soittaa myös muita erikoisinstrumentteja, kuten concertinaa (pieni irlantilainen harmonikka) ja irlantilaista huilua (tin-whistle), yhdistäen näitä eri soittimia värikkäästi looper efekti-pedaalilla. </p>
+<p>Koskelan torpan konsertissaan Raphaël soittaa omia sävellyksiään rauhallisesta sydäntä koskettavasta musiikista kelttiläisiin melodioihin ja tämän hetken inspiraatioita maailmanmusiikista afrikkalaisiin rytmeihin kelttiläisellä harpulla.</p>
+<p>Raphaëlin musiikki on kutsu olemaan oma itsesi, yksinkertaisesti rentoutua tähän hetkeen antaen kauneuden koskettaa.</p>
+<p>Hänen viimeiset levytyksensä ovat levy-yhtiö Malimba Recordsin julkaisemia:<br />
+meditatiivinen Silent Breeze (2010), Nomadic Love (2012) ja Zen Moments (2015).<br />
+Sen lisäksi Source of Joy ja Neema (2017).</p>
+<p>Su 30.6.2019 klo 17</p>
+<p>Koskelan Museotorppa<br />
+Torisevantie 350 (Onkinevantie)<br />
+Suodenniemi, Sastamala.<br />
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243174.50779375987!2d23.064308855757492!3d61.56443156726882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc8c2aeabf7d5c15!2sKoskelan+museotorppa!5e0!3m2!1sen!2sfi!4v1559566677610!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<p>Ajo-ohje: Suodenniemen kirkonkylästä Ikaalisiin ja Säviin menevää tietä n. 4km, jonka jälkeen vasemmalle Laviaan päin Taipaleentielle. N. 4km jälkeen vasemmalle Torisevantietä n. 200m, jolloin tie haarautuu Y:n muotoisesti. Kaarretaan oikealle Onkinevantietä n. 400m.<br />
+Navigaattori: Torisevantie 350 ja siitä alkaa Onkinevantie.</p>
+<p>Liput 15€ / 12€ opiskelijat, eläkeläiset</p>
+<p>Lisätiedot ja lippuvaraukset:<br />
+045-1633 929, devachintana@gmail.com / Chintana</p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Concert Afro-Celtique à Ramatuelle (83)</title>
 		<link>/2017/05/07/concert-afro-celtique-a-ramatuelle-83/</link>
 				<pubDate>Sun, 07 May 2017 23:00:06 +0000</pubDate>
 		<dc:creator><![CDATA[Raphaël]]></dc:creator>
 				<category><![CDATA[concerts]]></category>
 
-		<guid isPermaLink="false">/?p=42</guid>
+		<guid isPermaLink="false">http://localhost:99/duplicator1/?p=42</guid>
 				<description><![CDATA[CONCERT AFRO-CELTIQUE RAPHAËL PINEL Harpe Celtique Créative A l’occasion de la sortie de son album : « NEEMA &#8211; Afro Celtic [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-45" src="/wp-content/uploads/2017/05/Concert-Raphael-Pinel-harpe-celtique-Ramatuelle-16-juin-2017-EMAIL-1.jpg" alt="Concert Raphael Pinel harpe celtique Ramatuelle 16 juin 2017 EMAIL" width="595" height="842" srcset="/wp-content/uploads/2017/05/Concert-Raphael-Pinel-harpe-celtique-Ramatuelle-16-juin-2017-EMAIL-1.jpg 595w, /wp-content/uploads/2017/05/Concert-Raphael-Pinel-harpe-celtique-Ramatuelle-16-juin-2017-EMAIL-1-212x300.jpg 212w" sizes="(max-width: 595px) 100vw, 595px" /></p>
 <p class="p1"><span class="s1">CONCERT AFRO-CELTIQUE</span></p>
 <p class="p1">RAPHAËL PINEL<br />
 Harpe Celtique Créative</p>
 <p class="p2"><i>A l’occasion de la sortie de son album : </i><i>« NEEMA &#8211; Afro Celtic Adventures », Raphaël Pinel nous partage ses dernières compositions, vivantes, colorées et inspirées par la joie et le goût de l’aventure qui se trouvent au fond de chacun de nous. NEEMA signifie en Swahili “Grâce”.<span class="Apple-converted-space">  </span>Un moment pour revenir à soi, écouter son cœur et célébrer la simplicité et la fraîcheur de l’instant présent.</i></p>
-<p class="p1">Vendredi 16 Juin<span class="Apple-converted-space">  </span>20h30</p>
+<p class="p1">Vendredi 16 Juin 2017<span class="Apple-converted-space">  </span>20h30</p>
 <p class="p1">L’Atelier des Musiciens, <span class="s1">Ramatuelle<br />
 </span><i>247 Parc d’Activité du Colombier</i></p>
 <p class="p1">Infos : 04 94 49 32 94<br />
-Entré libre &#8211; participation volontaire bienvenue</p>
+Entrée libre &#8211; participation volontaire bienvenue</p>
 <p class="p1"><a href="https://www.facebook.com/raphaelpinel1/posts/10210329830897001?pnref=story" target="_blank" rel="noopener noreferrer">Évènement Facebook</a></p>
 <p class="p1"><span class="s1"> </span></p>
 <p class="p1">

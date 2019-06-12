@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="https://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="https://wellformedweb.org/CommentAPI/"
-	xmlns:dc="https://purl.org/dc/elements/1.1/"
-	xmlns:atom="https://www.w3.org/2005/Atom"
-	xmlns:sy="https://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="https://purl.org/rss/1.0/modules/slash/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
 	>
 
 <channel>
 	<title>music &#8211; Raphaël Pinel</title>
-	<atom:link href="https://localhost/duplicator1/category/music/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/raphaelpinel-headless/category/music/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>creative harp</description>
-	<lastBuildDate>Fri, 31 May 2019 08:24:38 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 04 Jun 2019 11:02:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,68 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.2.1</generator>
 	<item>
+		<title>Video Dinan Festival 2018</title>
+		<link>/2019/06/04/video-dinan-festival-2018/</link>
+				<pubDate>Tue, 04 Jun 2019 07:32:11 +0000</pubDate>
+		<dc:creator><![CDATA[Raphaël]]></dc:creator>
+				<category><![CDATA[afro-celtic]]></category>
+		<category><![CDATA[concerts]]></category>
+		<category><![CDATA[music]]></category>
+
+		<guid isPermaLink="false">http://localhost:99/duplicator1/?p=134</guid>
+				<description><![CDATA[Here is an own composition called Forest which you can find on my CD NEEMA &#8211; Afro Celtic Adventures. It [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ERxWMCbZDpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Here is an own composition called <strong>Forest</strong> which you can find on my CD NEEMA &#8211; Afro Celtic Adventures.<br />
+It was recorded in July 2018 at my concert at the international harp festival in Dinan, France<br />
+<a href="https://www.harpe-celtique.fr/festival/">https://www.harpe-celtique.fr/festival/</a><br />
+Thank you so much to Mihaela Murariu for filming and editing.<br />
+Thank you to <a href="https://www.camac-harps.com/en/">CAMAC harps</a> for lending me this beautiful Mélusine de Concert harp, so I didn&#8217;t have to carry my own harp.<br />
+It was a great festival. Thank you to all the team of the harp house for inviting me there and to all those who participated.</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Summer Concert in Suodenniemi Finland 30.06.2019</title>
+		<link>/2019/06/04/summer-concert-in-suodenniemi-finland-30-06-2019/</link>
+				<pubDate>Tue, 04 Jun 2019 07:24:01 +0000</pubDate>
+		<dc:creator><![CDATA[Raphaël]]></dc:creator>
+				<category><![CDATA[concerts]]></category>
+		<category><![CDATA[music]]></category>
+
+		<guid isPermaLink="false">http://localhost:99/duplicator1/?p=129</guid>
+				<description><![CDATA[Hei kauniin musiikin ystävät, taas tänä vuonna saamme nauttia Raphaël Pinelin upeasta harppumusiikista täällä Suomessa, Koskelan Museotorpalla, Suodenniemellä. Lämpimästi tervetuloa! [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web.jpg"><img src="/wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web-724x1024.jpg" alt="" width="724" height="1024" class="alignnone size-large wp-image-131" srcset="/wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web-724x1024.jpg 724w, /wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web-212x300.jpg 212w, /wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web-768x1086.jpg 768w, /wp-content/uploads/2019/06/koskelantorppa_konsertti_2019web.jpg 1240w" sizes="(max-width: 724px) 100vw, 724px" /></a><br />
+Hei kauniin musiikin ystävät,</p>
+<p>taas tänä vuonna saamme nauttia Raphaël Pinelin upeasta harppumusiikista täällä Suomessa,<br />
+Koskelan Museotorpalla, Suodenniemellä.</p>
+<p>Lämpimästi tervetuloa!</p>
+<p>Sydäntäkoskettava Harppumusiikki konsertti<br />
+Tuulahdus Ranskasta kesäiltaan harppumusiikin sävelissä </p>
+<p>Raphaël Pinel<br />
+Ranskalainen muusikko ja säveltäjä</p>
+<p>Raphaël luo omalla herkällä ja hauskalla tavalla tunnelman Ranskasta ja muista eksoottisistakin maista upean kuuloisella kelttiläisellä harpulla.<br />
+Ainutlaatuinen kokemus!   </p>
+<p>Ranskalainen Raphaël Pinel on luova ja intuitiivinen harpisti ja säveltäjä.<br />
+Kelttiläistä harppua hän on soittanut yli 25 vuoden ajan.<br />
+Raphaël on toiminut useita vuosia kansainvälisenä ammattimuusikkona konsertoiden mm. eri harppu- ja musiikkifestivaaleilla, luoden uusia sävellyksiä, tehden levytyksiä ja opettaen harpun soittoa. </p>
+<p>Ilmaisemaan monipuolisia näkökulmiaan rikkaista musikaalisista ideoistaan ja improvisaatioistaan hän soittaa myös muita erikoisinstrumentteja, kuten concertinaa (pieni irlantilainen harmonikka) ja irlantilaista huilua (tin-whistle), yhdistäen näitä eri soittimia värikkäästi looper efekti-pedaalilla. </p>
+<p>Koskelan torpan konsertissaan Raphaël soittaa omia sävellyksiään rauhallisesta sydäntä koskettavasta musiikista kelttiläisiin melodioihin ja tämän hetken inspiraatioita maailmanmusiikista afrikkalaisiin rytmeihin kelttiläisellä harpulla.</p>
+<p>Raphaëlin musiikki on kutsu olemaan oma itsesi, yksinkertaisesti rentoutua tähän hetkeen antaen kauneuden koskettaa.</p>
+<p>Hänen viimeiset levytyksensä ovat levy-yhtiö Malimba Recordsin julkaisemia:<br />
+meditatiivinen Silent Breeze (2010), Nomadic Love (2012) ja Zen Moments (2015).<br />
+Sen lisäksi Source of Joy ja Neema (2017).</p>
+<p>Su 30.6.2019 klo 17</p>
+<p>Koskelan Museotorppa<br />
+Torisevantie 350 (Onkinevantie)<br />
+Suodenniemi, Sastamala.<br />
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243174.50779375987!2d23.064308855757492!3d61.56443156726882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc8c2aeabf7d5c15!2sKoskelan+museotorppa!5e0!3m2!1sen!2sfi!4v1559566677610!5m2!1sen!2sfi" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<p>Ajo-ohje: Suodenniemen kirkonkylästä Ikaalisiin ja Säviin menevää tietä n. 4km, jonka jälkeen vasemmalle Laviaan päin Taipaleentielle. N. 4km jälkeen vasemmalle Torisevantietä n. 200m, jolloin tie haarautuu Y:n muotoisesti. Kaarretaan oikealle Onkinevantietä n. 400m.<br />
+Navigaattori: Torisevantie 350 ja siitä alkaa Onkinevantie.</p>
+<p>Liput 15€ / 12€ opiskelijat, eläkeläiset</p>
+<p>Lisätiedot ja lippuvaraukset:<br />
+045-1633 929, devachintana@gmail.com / Chintana</p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>NEEMA Video</title>
 		<link>/2018/04/26/neema-video/</link>
 				<pubDate>Thu, 26 Apr 2018 19:34:36 +0000</pubDate>
@@ -27,15 +89,15 @@
 				<category><![CDATA[afro-celtic]]></category>
 		<category><![CDATA[music]]></category>
 
-		<guid isPermaLink="false">/?p=102</guid>
+		<guid isPermaLink="false">http://localhost:99/duplicator1/?p=102</guid>
 				<description><![CDATA[(English below) Un aperçu de sept compositions jouées live à l&#8217;Atelier des Musiciens à Ramatuelle issues de mon dernier album [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>(English below) Un aperçu de sept compositions jouées live à l&#8217;Atelier des Musiciens à Ramatuelle issues de mon dernier album NEEMA &#8211; Afro Celtic Adventures</p>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/c-doG4wOAxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p>Retrouvez-moi aux Rencontres internationales de harpe celtique de Dinan le 14 juillet 2018: <a href="https://www.harpe-celtique.fr/festival/" target="_blank" rel="noopener noreferrer">https://www.harpe-celtique.fr/festival/</a></p>
+<p>Retrouvez-moi aux Rencontres internationales de harpe celtique de Dinan le 14 juillet 2018: <a href="http://www.harpe-celtique.fr/festival/" target="_blank" rel="noopener noreferrer">http://www.harpe-celtique.fr/festival/</a></p>
 <p>et faite vous plaisir : <strong>soutenez ma musique et commandez l&#8217;album NEEMA</strong><br />
 en m&#8217;écrivant via le formulaire de <a href="/contact/">contact</a></p>
 <p>An overview of seven own compositions played live in Ramatuelle, from my last album NEEMA &#8211; Afro Celtic Adventures.<br />
-Come to experience me live at the International harp festival in Dinan on July 14th, 2018: <a href="https://www.harpe-celtique.fr/festival/" target="_blank" rel="noopener noreferrer">https://www.harpe-celtique.fr/festival/</a></p>
+Come to experience me live at the International harp festival in Dinan on July 14th, 2018: <a href="http://www.harpe-celtique.fr/festival/" target="_blank" rel="noopener noreferrer">http://www.harpe-celtique.fr/festival/</a></p>
 <p>And give yourself a special treat: <strong>support my music and order my CD NEEMA</strong><br />
 by writing me using the <a href="/contact/">contact form</a></p>
 ]]></content:encoded>
@@ -47,7 +109,7 @@ by writing me using the <a href="/contact/">contact form</a></p>
 		<dc:creator><![CDATA[Raphaël]]></dc:creator>
 				<category><![CDATA[music]]></category>
 
-		<guid isPermaLink="false">/?p=82</guid>
+		<guid isPermaLink="false">http://localhost:99/duplicator1/?p=82</guid>
 				<description><![CDATA[14 Juillet 2018 NEEMA (Aventures africaines et celtiques) Rencontres Internationales de Harpes Celtiques, Dinan, France 30 mars 2018, 21H PHOEBUZZ [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>14 Juillet 2018 NEEMA (Aventures africaines et celtiques)<br />
 Rencontres Internationales de Harpes Celtiques, Dinan, France<br />
@@ -72,13 +134,13 @@ Tiruvannamalai, Inde.<br />
 				<category><![CDATA[afro-celtic]]></category>
 		<category><![CDATA[music]]></category>
 
-		<guid isPermaLink="false">/?p=62</guid>
+		<guid isPermaLink="false">http://localhost:99/duplicator1/?p=62</guid>
 				<description><![CDATA[I just received my new CDs. I am feeling so happy and grateful, they are just beautiful! NEEMA &#8211; Afro [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>I just received my new CDs. I am feeling so happy and grateful, they are just beautiful! NEEMA &#8211; Afro Celtic Adventures and Source of Joy &#8211; meditative harp (2nd edition). Thank you to Romy Bonnefoy for the beautiful design. If you like to have some now, please contact me before Friday 30th as we are leaving to Finland on Sunday.</p>
 <p>Je viens juste de recevoir mes nouveaux CDs. Je me sens si heureux et reconnaissant, ils sont simplement beaux ! NEEMA &#8211; Afro Celtic Adventures et Source of Joy &#8211; meditative harp (2e édition). Merci à Romy Bonnefoy pour le super design. Si vous voulez en recevoir maintenant, contactez-moi avant vendredi 30, car nous partons en Finlande ce dimanche.</p>
-<p><a href="/wp-content/uploads/2017/06/IMG_1575-2.jpg"><img class="alignnone size-large wp-image-68" src="/wp-content/uploads/2017/06/IMG_1575-2-1024x768.jpg" alt="IMG_1575" width="840" height="630" srcset="/wp-content/uploads/2017/06/IMG_1575-2-1024x768.jpg 1024w, /wp-content/uploads/2017/06/IMG_1575-2-300x225.jpg 300w, /wp-content/uploads/2017/06/IMG_1575-2-768x576.jpg 768w" sizes="(max-width: 840px) 100vw, 840px" /></a><a href="/wp-content/uploads/2017/06/IMG_1576.jpg"><img class="alignnone wp-image-64 size-large" src="/wp-content/uploads/2017/06/IMG_1576-1024x768.jpg" alt="IMG_1576" width="840" height="630" srcset="/wp-content/uploads/2017/06/IMG_1576-1024x768.jpg 1024w, /wp-content/uploads/2017/06/IMG_1576-300x225.jpg 300w, /wp-content/uploads/2017/06/IMG_1576-768x576.jpg 768w" sizes="(max-width: 840px) 100vw, 840px" /></a></p>
-<p><a href="/wp-content/uploads/2017/06/IMG_1577.jpg"><img class="alignnone size-large wp-image-65" src="/wp-content/uploads/2017/06/IMG_1577-1024x768.jpg" alt="IMG_1577" width="840" height="630" srcset="/wp-content/uploads/2017/06/IMG_1577-1024x768.jpg 1024w, /wp-content/uploads/2017/06/IMG_1577-300x225.jpg 300w, /wp-content/uploads/2017/06/IMG_1577-768x576.jpg 768w" sizes="(max-width: 840px) 100vw, 840px" /></a></p>
-<p><a href="/wp-content/uploads/2017/06/IMG_1578.jpg"><img class="alignnone size-large wp-image-66" src="/wp-content/uploads/2017/06/IMG_1578-1024x768.jpg" alt="IMG_1578" width="840" height="630" srcset="/wp-content/uploads/2017/06/IMG_1578-1024x768.jpg 1024w, /wp-content/uploads/2017/06/IMG_1578-300x225.jpg 300w, /wp-content/uploads/2017/06/IMG_1578-768x576.jpg 768w" sizes="(max-width: 840px) 100vw, 840px" /></a></p>
+<p><a href="/wp-content/uploads/2017/06/IMG_1575-2.jpg"><img class="alignnone size-large wp-image-68" src="/wp-content/uploads/2017/06/IMG_1575-2-1024x768.jpg" alt="IMG_1575" width="840" height="630" srcset="/wp-content/uploads/2017/06/IMG_1575-2-1024x768.jpg 1024w, /wp-content/uploads/2017/06/IMG_1575-2-300x225.jpg 300w, /wp-content/uploads/2017/06/IMG_1575-2-768x576.jpg 768w, /wp-content/uploads/2017/06/IMG_1575-2-1568x1176.jpg 1568w" sizes="(max-width: 840px) 100vw, 840px" /></a><a href="/wp-content/uploads/2017/06/IMG_1576.jpg"><img class="alignnone wp-image-64 size-large" src="/wp-content/uploads/2017/06/IMG_1576-1024x768.jpg" alt="IMG_1576" width="840" height="630" srcset="/wp-content/uploads/2017/06/IMG_1576-1024x768.jpg 1024w, /wp-content/uploads/2017/06/IMG_1576-300x225.jpg 300w, /wp-content/uploads/2017/06/IMG_1576-768x576.jpg 768w, /wp-content/uploads/2017/06/IMG_1576-1568x1176.jpg 1568w" sizes="(max-width: 840px) 100vw, 840px" /></a></p>
+<p><a href="/wp-content/uploads/2017/06/IMG_1577.jpg"><img class="alignnone size-large wp-image-65" src="/wp-content/uploads/2017/06/IMG_1577-1024x768.jpg" alt="IMG_1577" width="840" height="630" srcset="/wp-content/uploads/2017/06/IMG_1577-1024x768.jpg 1024w, /wp-content/uploads/2017/06/IMG_1577-300x225.jpg 300w, /wp-content/uploads/2017/06/IMG_1577-768x576.jpg 768w, /wp-content/uploads/2017/06/IMG_1577-1568x1176.jpg 1568w" sizes="(max-width: 840px) 100vw, 840px" /></a></p>
+<p><a href="/wp-content/uploads/2017/06/IMG_1578.jpg"><img class="alignnone size-large wp-image-66" src="/wp-content/uploads/2017/06/IMG_1578-1024x768.jpg" alt="IMG_1578" width="840" height="630" srcset="/wp-content/uploads/2017/06/IMG_1578-1024x768.jpg 1024w, /wp-content/uploads/2017/06/IMG_1578-300x225.jpg 300w, /wp-content/uploads/2017/06/IMG_1578-768x576.jpg 768w, /wp-content/uploads/2017/06/IMG_1578-1568x1176.jpg 1568w" sizes="(max-width: 840px) 100vw, 840px" /></a></p>
 ]]></content:encoded>
 										</item>
 		<item>
@@ -89,7 +151,7 @@ Tiruvannamalai, Inde.<br />
 		<dc:creator><![CDATA[Raphaël]]></dc:creator>
 				<category><![CDATA[music]]></category>
 
-		<guid isPermaLink="false">/?p=51</guid>
+		<guid isPermaLink="false">http://localhost:99/duplicator1/?p=51</guid>
 				<description><![CDATA[Voici un premier enregistrement pour mon prochain album NEEMA &#8211; Afro Celtic Adventures, sortie prévue en juin 2017 Here is [&#8230;]]]></description>
 								<content:encoded><![CDATA[<p>Voici un premier enregistrement pour mon prochain album NEEMA &#8211; Afro Celtic Adventures, sortie prévue en juin 2017</p>
 <p>Here is a first recording for my next album NEEMA &#8211; Afro Celtic Adventures, to be released in June 2017</p>

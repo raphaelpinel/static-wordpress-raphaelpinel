@@ -3062,7 +3062,7 @@ UNCODE.twentytwenty = function() {
         },
 
         // Shim for requestAnimationFrame, falling back to timer. See:
-        // see https://paulirish.com/2011/requestanimationframe-for-smart-animating/
+        // see http://paulirish.com/2011/requestanimationframe-for-smart-animating/
         requestFrame = (function(){
           return (
             window.requestAnimationFrame ||
