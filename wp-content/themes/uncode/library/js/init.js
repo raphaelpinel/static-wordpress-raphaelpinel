@@ -2929,6 +2929,7 @@ function whichAnimationEvent() {
 		if (images.length > 0) {
 			var xhr = new XMLHttpRequest();
 			xhr.open('POST', SiteParameters.ajax_url, true);
+			console.log('2932 SiteParameters.ajax_url', SiteParameters.ajax_url);
 			xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 			xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
 
@@ -3055,7 +3056,7 @@ function whichAnimationEvent() {
 				arrayCounter++;
 			}
 
-			xhr.send(queryString);
+			//xhr.send(queryString);
 		}
 	};
 
